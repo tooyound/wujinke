@@ -1,0 +1,74 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+img,input{border:none;}
+a{text-decoration:none;color: #000;}
+header,nav,section,footer,time,article{display: block;}
+html,body{height: 100%;}
+.page1{background: url(../../images/oshin-slide-1.jpg) no-repeat center /cover;height: 100%;}
+.page1 .logo{float: left;padding: 2% 0 0 2%;}
+.page1 .icon{float: right;padding: 2% 2% 0 0;}
+.page1 nav{display: inline-block;}
+.page1 nav li{float: left;height: 99px;line-height: 99px;padding: 0 21px;}
+.page1 nav a{font-size: 12px;color: #333;text-transform: uppercase;font-weight: bold;letter-spacing: 2px;}
+.page1 nav li a:hover{color: #e5c793;}
+.page1 .anim{width: 364px;height: 307px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
+@keyframes a1{
+	0%{left: -100%;}
+	100%{left: 0;}
+}
+@keyframes a2{
+	0%{top: -100%;}
+	100%{left: 0;}
+}
+@keyframes a3{
+	0%{bottom: -100%;}
+	100%{left: 0;}
+}
+@font-face {
+	font-family: 'Conv_BrushScriptStd';
+	src: url('../fonts/BrushScriptStd.eot');
+	src: local('☺'), url('../fonts/BrushScriptStd.woff') format('woff'), url('../fonts/BrushScriptStd.ttf') format('truetype'), url('../fonts/BrushScriptStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.anim .a1{height: 80px;font-size: 20px;position:absolute;top: 30px;left: 80px;width: 100%;letter-spacing: 2px;animation: a1 1s ease forwards;}
+.anim .a2{width:350px;font-size: 46px;height: 102px;border:7px solid #000;position: absolute;top: 80px;left: 0;font-weight: bold;text-align: center;animation: a1 2s ease forwards;}
+.anim .a3{height: 110px;font-size: 30px;position: absolute;bottom:0;left: 50px;animation: a1 1s ease forwards;font-family: 'Conv_BrushScriptStd';}
+
+.page2{text-align: center;}
+.page2 h2{height: 73px;line-height: 43px;padding-top: 75px;}
+.page2 span{line-height: 64px;}
+.page2 .diamond{width: 10px;height: 10px;background: #e0a240;border:1px solid #f5e2c4;margin: 23px auto 36px;position:relative;transform: rotae(45deg);}
+.page2 .diamond:before{content: ""; width: 20px;height: 1px;background: #e8e8e8;position: absolute;top: 0;left: 0;transform: rotae(45deg) translatex(-43px);}
+.page2 .diamond:after{content: ""; width: 20px;height: 1px;background: #e8e8e8;position: absolute;top: 0;right: 0;transform: rotae(45deg) translatex(26px,-4px);}
+.page2 p{line-height: 39px; padding-bottom: 100px;}
+.page2 .pic{font-size: 0;}
+.page2 ul li{float: left;width: 25%;height: 245px;}
+.page2 ul:nth-child(odd){background: #f2f5f8;}
+.page2 ul:nth-child(even){background: #edf0f2;}
+.page2 ul li i{font-size: 60px;padding-top: 60px;transform: .3s:}
+.page2 ul li span{line-height: 53px;display: block;transform: .3s;}
+.page2 ul li:hover i,.page2 ul li:hover span{transform:translateY(-30px);}
+.page3{width: 1200px;margin: 0 auto;}
+.page3 .left{float: left;width: 398px;}
+.page3 .left ul{padding-top: 110px;}
+.page3 .left li{padding-top:38px;}
+.page3 .left .icon{float: left;font-size: 37px;line-height: 90px;width: 71px;text-align: center;padding-top:8px;color: #e3ac55}
+.page3 .left .text{float: left;width: 285px;padding-left: 10px;}
+.page3 .left li .text h2{line-height:53px;height: 53px;margin-top: 37px;}
+.page3 .left li p{line-height: 26px;float: left;}
+.page3 .left .pic{float: left;width: 100px;padding-top:90px;margin-bottom: 100px;}
+.page3 .left .pic img{width:100%;}
+.page4{height: 400px;background: url(../../images/wanderlust01.jpg) no-repeat center top/cover fixed;}
+.page5{text-align:center;margin: 0 auto;width: 1200px;}
+.page5 .nav{display: inline-block;padding-top: 49px;}
+.page5 .nav li{float: left;height: 46px;}
+.page5 .nav li a{border:1px solid #fff;display: block;padding: 0 22px;line-height: 44px;height:44px;color:#222;transform: .2s;}
+.page5 .nav li a:hover{border-color:#e0a240;color: #e0a240;}
+.page5 .pic_list li{width: 373px;height: 221px;margin: 0 40px 40px 0;float: left;}
+.page5 .pic_list li:nth-child(3n){margin-right:0;}
+.page5 .pic_list img{width: 100%;height: 100%;display: block;margin-top:50px;}
+.page5 .btn a{width: 148px;height: 44px;line-height: 44px;border: 2px solid #000;text-align: center;color:#222;margin: 0 auto;transition:.5s;text-transform: uppercase;}
+.page5 .btn a:hover{border: 1px solid #e0a240;background: #e0a240;color:#fff;}
+.page6{background: #f2f3f8;height:413px;}
